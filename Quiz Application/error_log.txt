@@ -1,0 +1,4 @@
+[2026-03-15 18:45:13] [INFO] Admin 2 created quiz: Basics of C++
+[2026-03-15 18:51:57] [INFO] Admin 2 updated quiz ID: 1
+[2026-03-15 18:54:20] [INFO] Admin 2 deleted user: admin
+[2026-03-15 18:56:10] [INFO] Admin 2 created database backup
