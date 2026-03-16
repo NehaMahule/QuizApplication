@@ -98,9 +98,8 @@ On first launch, the application automatically creates:
 
 # Main Menu
 
-==================================================
                  MAIN MENU
-==================================================
+
 1. Register
 2. Login
 3. View Global Statistics
@@ -129,28 +128,7 @@ Enter choice:
 3. Create quizzes and add questions
 4. Manage users and view analytics
 
-# 📁 Project Structure
 
-quiz-application/
-│
-├── 📄 main.cpp                 # Entry point
-├── 📄 Interfaces.h              # All interfaces
-├── 📄 ServiceFactory.h          # Factory pattern
-│
-├── 📄 Database.h/cpp            # SQLite database operations
-├── 📄 Authentication.h/cpp       # User authentication
-├── 📄 Admin.h/cpp                # Admin functionalities
-├── 📄 User.h/cpp                 # User functionalities
-├── 📄 Analytics.h/cpp            # Analytics and reporting
-├── 📄 QuizEngine.h/cpp           # Quiz taking logic
-├── 📄 ErrorHandler.h/cpp         # Error logging
-│
-├── 📄 sqlite3.h/c                # SQLite amalgamation
-│
-├── 📄 quizz.db                   # SQLite database (created at runtime)
-├── 📄 error_log.txt               # Error logs (created at runtime)
-│
-└── 📄 README.md                   # This file
 
 # Database Schema
 
