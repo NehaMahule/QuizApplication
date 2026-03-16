@@ -2,12 +2,8 @@
 
 A comprehensive C++ quiz management system with user authentication, admin dashboard, performance analytics, and achievement system. Built with SQLite3 for persistent storage and following modern C++ design patterns.
 
-![C++](https://img.shields.io/badge/C++-11-blue.svg)
-![SQLite](https://img.shields.io/badge/SQLite-3-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20Mac-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
-📋 Table of Contents
+ Table of Contents
 - [Features](#-features)
 - [Screenshots](#-screenshots)
 - [Architecture](#-architecture)
@@ -20,9 +16,9 @@ A comprehensive C++ quiz management system with user authentication, admin dashb
 - [Contributing](#-contributing)
 - [License](#-license)
 
-✨ Features
+Features
 
-👤 User Features
+User Features
 - User Registration/Login - Secure authentication with password hashing
 - Browse Quizzes - View all available quizzes
 - Filter Quizzes - Search by category (C, C++, Python, Java, Basic Maths) or difficulty (Low, Medium, High)
@@ -33,7 +29,7 @@ A comprehensive C++ quiz management system with user authentication, admin dashb
 - **Achievement System** - Earn badges for milestones
 - **Leaderboard** - Compete with other users
 
-👑 Admin Features
+ Admin Features
 - **Quiz Management** - Create, edit, delete, and clone quizzes
 - **Question Bank** - Add, modify, and remove questions
 - **Bulk Operations** - Add multiple questions at once
@@ -50,19 +46,6 @@ A comprehensive C++ quiz management system with user authentication, admin dashb
 - **Category Analysis** - Performance breakdown by topic
 - **Progress Tracking** - Visual progress bars
 
- 🏗 Architecture
-
-┌─────────────────────────────────────────────────────────────┐
-│                      QUIZ APPLICATION                        │
-├───────────────┬───────────────────────┬─────────────────────┤
-│  Presentation │     Business Logic     │      Data Layer     │
-│    Layer      │                       │                     │
-├───────────────┼───────────────────────┼─────────────────────┤
-│ • Console UI  │ • Authentication      │ • SQLite Database   │
-│ • Menus       │ • Quiz Engine         │ • File I/O          │
-│ • User Input  │ • Admin Panel         │ • CSV Export        │
-│ • Formatting  │ • Analytics           │ • Error Logging     │
-└───────────────┴───────────────────────┴─────────────────────┘
 💻 Tech Stack
 
 - **Language**: C++11
